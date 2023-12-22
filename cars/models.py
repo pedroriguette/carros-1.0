@@ -37,4 +37,5 @@ class CarInventory(models.Model):
 
     def __str__(self):
         return f'{self.cars_count} - {self.cars_value}'
+
     
